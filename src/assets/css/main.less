@@ -1,0 +1,28 @@
+@mobile: ~'(max-width: 575px)';
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.main {
+  min-height: 100vh;
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 150px;
+
+  .content {
+    padding-bottom: 13vh;
+  }
+}
+
+@media @mobile {
+  .content {
+    padding-bottom: 30vh !important;
+  }
+}
