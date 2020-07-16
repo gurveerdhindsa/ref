@@ -1,8 +1,0 @@
-node_modules
-/build
-.DS_Store
-/.vscode
-package-lock.json
-.env
-/.firebase
-firebase-debug.log
