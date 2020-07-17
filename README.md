@@ -12,4 +12,4 @@
 
 > A highly scalable, maintainable, and performant boilerplate
 
-This boilerplate is perfect for beginner 👶 , intermediate 👨 , and advanced developers 👷 looking to quick-start a project that will yield a perfect [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) score!
+This boilerplate is perfect for beginner :baby: , intermediate :man: , and advanced developers :construction_worker: looking to quick-start a project that will yield a perfect [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) score!
