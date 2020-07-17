@@ -22,3 +22,39 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
   * Cloud Firestore
   * Storage
   * Hosting
+
+### Directory Layout
+
+```bash
+├── build/                        # Compiled output
+├── node_modules/                 # 3rd-party libraries and utilities
+├── public/                       # Static files such as favicon.ico, robots.txt etc.
+├── server/                       # Server code (aka firebase functions)
+│   ├── .eslintignore             # ESLint ignored directories and files
+│   ├── .eslintrc.json            # ESLint configuration
+│   ├── .snyk                     # Snyk configuration
+│   ├── index.js                  # Server code entry point
+├── src/                          # Application source code
+│   ├── assets/                     # Application assets (css, images, fonts, etc.)
+│   ├── components/                 # React Components
+│   ├── utils/                      # Additional utilities
+│   ├── index.js                    # Client code entry point
+│   ├── package.json                # The list of project dependencies + NPM scripts
+├── .babelrc                      # Babel configuration
+├── .browserslistrc               # Targeted browsers
+├── .eslintignore                 # ESLint ignored directories and files
+├── .eslintrc.json                # ESLint configuration
+├── .firebaserc                   # Project aliases
+├── .prettierignore               # Prettier ignored directories and files
+├── .prettierrc                   # Prettier configuration
+├── .travis.yml                   # TravisCI configuration
+├── firebase.json                 # Firebase configuration
+├── firestore.indexes.json        # Manage Firestore indexes
+├── firestore.rules               # Firebase database security rules
+├── postcss.config.js             # Postcss configuration
+├── storage.rules                 # Firebase storage security rules
+├── webpack.common.js             # Webpack configuration used in both dev & prod
+├── webpack.dev.js                # Webpack configuration used ONLY in dev
+├── webpack.prod.js               # Webpack configuration used ONLY in prod
+└── package.json                  # The list of project dependencies + NPM scripts
+```
