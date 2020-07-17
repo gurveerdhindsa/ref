@@ -58,3 +58,31 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 ├── webpack.prod.js               # Webpack configuration used ONLY in prod
 └── package.json                  # The list of project dependencies + NPM scripts
 ```
+
+### Getting Started
+```bash
+$ git clone https://github.com/gurveerdhindsa/ref.git MyApp
+$ cd MyApp
+$ npm install                      # Installs client dependencies
+$ cd server
+$ npm install                      # Installs sever dependencies
+```
+
+Be sure to create a project within [Firebase](https://firebase.google.com/docs/web/setup)
+
+```bash
+$ cd MyApp
+$ touch .env                      # Create a local environment file
+
+# Paste your firebase project configuration in the .env file as such:
+API_KEY: "XXXXXXXX"
+AUTH_DOMAIN: "XXXXXXXX.firebaseapp.com"
+DATABASE_URL: "https://XXXXXXXX.firebaseio.com"
+PROJECT_ID: "XXXXXXXX"
+STORAGE_BUCKET: "XXXXXXXX.appspot.com"
+MESSAGING_SENDER_ID: "XXXXXXXX"
+APP_ID: "XXXXXXXX"
+MEASUREMENT_ID: "XXXXXXXX"
+```
+
+
