@@ -12,7 +12,7 @@ app.use(express.json());
 
 app.get('/v1/test', (req, res) => {
   res.send('Called /v1/test');
-})
+});
 
 const api = functions.https.onRequest(app);
 
