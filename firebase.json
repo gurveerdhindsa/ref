@@ -19,6 +19,10 @@
         "function": "api"
       },
       {
+        "source": "/robots.txt",
+        "destination": "/robots.txt"
+      },
+      {
         "source": "**",
         "destination": "/index.html"
       }
