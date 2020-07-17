@@ -60,6 +60,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 ```
 
 ### Getting Started
+#### Installation
 ```bash
 $ git clone https://github.com/gurveerdhindsa/ref.git MyApp
 $ cd MyApp
@@ -67,12 +68,13 @@ $ npm install                      # Installs client dependencies
 $ cd server
 $ npm install                      # Installs sever dependencies
 ```
+#### Firebase setup
+First, create a [project](https://firebase.google.com/docs/web/setup)
 
-Be sure to create a project within [Firebase](https://firebase.google.com/docs/web/setup)
-
+Then, update your local environment:
 ```bash
 $ cd MyApp
-$ touch .env                      # Create a local environment file in the root directory
+$ touch .env                       # Create a local environment file in the root directory
 
 # Paste your firebase project configuration in the .env file as such:
 API_KEY: "XXXXXXXX"
@@ -84,5 +86,13 @@ MESSAGING_SENDER_ID: "XXXXXXXX"
 APP_ID: "XXXXXXXX"
 MEASUREMENT_ID: "XXXXXXXX"
 ```
-
+#### Scripts
+```bash
+$ npm start                       # Runs client code with live-reload
+$ npm run build                   # Compile a production build
+$ npm run lint                    # Prettify and lint project files
+$ npm run server                  # Runs server code with live-reload
+$ npm run deploy-client           # Compile a production build & deploy client code to Firebase
+$ npm run deploy-server           # Deploy server code to Firebase
+```
 
