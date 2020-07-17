@@ -72,7 +72,7 @@ Be sure to create a project within [Firebase](https://firebase.google.com/docs/w
 
 ```bash
 $ cd MyApp
-$ touch .env                      # Create a local environment file in the rot directory
+$ touch .env                      # Create a local environment file in the root directory
 
 # Paste your firebase project configuration in the .env file as such:
 API_KEY: "XXXXXXXX"
