@@ -2,14 +2,10 @@ const path = require('path');
 const merge = require('webpack-merge');
 
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
-// const CompressionPlugin = require('compression-webpack-plugin');
-// const ImageminPlugin = require('imagemin-webpack-plugin').default;
-// const imageminMozjpeg = require('imagemin-mozjpeg');
-const TerserPlugin = require('terser-webpack-plugin');
-const imageminGifsicle = require("imagemin-gifsicle");
-const imageminPngquant = require("imagemin-pngquant");
-const imageminSvgo = require("imagemin-svgo");
+const CompressionPlugin = require('compression-webpack-plugin');
+const ImageminPlugin = require('imagemin-webpack-plugin').default;
 const imageminMozjpeg = require('imagemin-mozjpeg');
+const TerserPlugin = require('terser-webpack-plugin');
 
 const common = require('./webpack.common.js');
 
@@ -59,41 +55,6 @@ module.exports = merge(common, {
           },
         ],
       },
-      {
-        test: /\.(jpe?g|png|gif|svg)$/i,
-        loaders: [
-          {
-            loader: 'file-loader',
-            options: {
-              name: './assets/images/[name].[ext]',
-            },
-          },
-          {
-            loader: 'img-loader',
-            options: {
-              plugins: [
-                imageminGifsicle({
-                    interlaced: false
-                }),
-                imageminMozjpeg({
-                    progressive: true,
-                    arithmetic: false
-                }),
-                imageminPngquant({
-                    floyd: 0.5,
-                    speed: 2
-                }),
-                imageminSvgo({
-                    plugins: [
-                        { removeTitle: true },
-                        { convertPathData: false }
-                    ]
-                })
-            ]
-            },
-          },
-        ],
-      },
     ],
   },
   optimization: {
@@ -105,12 +66,32 @@ module.exports = merge(common, {
       }),
     ],
   },
-  plugins:[
+  plugins: [
     new MiniCssExtractPlugin({
       filename: 'style.[contentHash].css',
-      chunkFilename: '[id].css'
+      chunkFilename: '[id].css',
     }),
-   ],
+    new CompressionPlugin({
+      test: /\.(html|css|js)(\?.*)?$/i, // only compressed html/css/js, skips compressing sourcemaps etc
+    }),
+    new ImageminPlugin({
+      test: /\.(jpe?g|png|gif|svg)$/i,
+      gifsicle: {
+        // lossless gif compressor
+        optimizationLevel: 9,
+      },
+      pngquant: {
+        // lossy png compressor, remove for default lossless
+        quality: '75',
+      },
+      plugins: [
+        imageminMozjpeg({
+          // lossy jpg compressor, remove for default lossless
+          quality: '75',
+        }),
+      ],
+    }),
+  ],
   output: {
     filename: '[name].[contentHash].js',
     path: path.resolve(__dirname, 'build'),
