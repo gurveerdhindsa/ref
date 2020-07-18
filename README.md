@@ -3,7 +3,6 @@
 
 <div style="text-align:center">
   <h1 align="center">React Express Firebase Boilerplate</h1>
-  
 </div>
 
 <p align="center">
@@ -106,3 +105,7 @@ $ npm run deploy-server           # Deploy server code to Firebase
 <b>Automatic Linting</b> - Focus on writing new features without worrying about formatting or code quality. Your code will be formatted and linted according to industry standard.
 
 <b>SEO</b> - 100% SEO supported (document head tags management) for search engines that support indexing of JavaScript content.
+
+<div style="text-align:center">
+  <i align="center">Feel free to fork this repo and create a workflow to your own liking!</i>
+</div>
