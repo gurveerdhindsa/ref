@@ -99,13 +99,13 @@ $ npm run deploy-server           # Deploy server code to Firebase
 
 ### Features
 
-<b>React</b> - The key to scalability. Build self-documented code and create maintainable large applications.
+🔑 <b>React</b> - The key to scalability. Build self-documented code and create maintainable large applications.
 
-<b>Serverless Architecture</b> - Combination of Firebase services (Firestore, Storage and Cloud Functions) backed by Google.
+☁️ <b>Serverless Architecture</b> - Combination of Firebase services (Firestore, Storage and Cloud Functions) backed by Google.
 
-<b>Automatic Linting</b> - Focus on writing new features without worrying about formatting or code quality. Your code will be formatted and linted according to industry standard.
+🧹 <b>Automatic Linting</b> - Focus on writing new features without worrying about formatting or code quality. Your code will be formatted and linted according to industry standard.
 
-<b>SEO</b> - 100% SEO supported (document head tags management) for search engines that support indexing of JavaScript content.
+🔍 <b>SEO</b> - 100% SEO supported (document head tags management) for search engines that support indexing of JavaScript content.
 
 <div style="text-align:center">
   <h3 align="center"><i>Feel free to fork this repo and create a workflow to your own liking!</i></h3>
