@@ -8,7 +8,7 @@ module.exports = (ctx) => {
         ? [
             cssnano({
               preset: 'default',
-            })
+            }),
           ]
         : []),
     ],

@@ -1,6 +1,5 @@
 const path = require('path');
 const merge = require('webpack-merge');
-
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const CompressionPlugin = require('compression-webpack-plugin');
 const ImageminPlugin = require('imagemin-webpack-plugin').default;
@@ -72,21 +71,18 @@ module.exports = merge(common, {
       chunkFilename: '[id].css',
     }),
     new CompressionPlugin({
-      test: /\.(html|css|js)(\?.*)?$/i, // only compressed html/css/js, skips compressing sourcemaps etc
+      test: /\.(html|css|js)(\?.*)?$/i,
     }),
     new ImageminPlugin({
       test: /\.(jpe?g|png|gif|svg)$/i,
       gifsicle: {
-        // lossless gif compressor
         optimizationLevel: 9,
       },
       pngquant: {
-        // lossy png compressor, remove for default lossless
         quality: '75',
       },
       plugins: [
         imageminMozjpeg({
-          // lossy jpg compressor, remove for default lossless
           quality: '75',
         }),
       ],
