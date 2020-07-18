@@ -19,7 +19,8 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 * Node.js
   * Express
 * Firebase & GCP
-  * Cloud Firestore
+  * Cloud Functions
+  * Firestore
   * Storage
   * Hosting
 
