@@ -14,8 +14,18 @@
 
 This boilerplate is perfect for beginner :baby: , intermediate :man: , and advanced developers :construction_worker: looking to quick-start a project that will yield a perfect [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) score!
 
-### Tech Stack
+### Features
 
+🔑 <b>React</b> - The key to scalability. Build self-documented code and create maintainable large applications.
+
+☁️ <b>Serverless Architecture</b> - Combination of Firebase services (Firestore, Storage and Cloud Functions) backed by Google.
+
+🧹 <b>Automatic Linting</b> - Focus on writing new features without worrying about formatting or code quality. Your code will be formatted and linted according to industry standard.
+
+🔍 <b>SEO</b> - 100% SEO supported (document head tags management) for search engines that support indexing of JavaScript content.
+
+
+### Tech Stack
 - React
 - Node.js
   - Express
@@ -25,8 +35,8 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
   - Storage
   - Hosting
 
-### Directory Layout
 
+### Directory Layout
 ```bash
 ├── build/                        # Compiled output
 ├── node_modules/                 # 3rd-party libraries and utilities
@@ -61,10 +71,9 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 └── package.json                  # The list of project dependencies + NPM scripts
 ```
 
+
 ### Getting Started
-
 #### Installation
-
 ```bash
 $ git clone https://github.com/gurveerdhindsa/ref.git MyApp
 $ cd MyApp
@@ -105,16 +114,7 @@ $ npm run deploy-client           # Compile a production build & deploy client c
 $ npm run deploy-server           # Deploy server code to Firebase
 ```
 
-### Features
-
-🔑 <b>React</b> - The key to scalability. Build self-documented code and create maintainable large applications.
-
-☁️ <b>Serverless Architecture</b> - Combination of Firebase services (Firestore, Storage and Cloud Functions) backed by Google.
-
-🧹 <b>Automatic Linting</b> - Focus on writing new features without worrying about formatting or code quality. Your code will be formatted and linted according to industry standard.
-
-🔍 <b>SEO</b> - 100% SEO supported (document head tags management) for search engines that support indexing of JavaScript content.
-
+<br />
 <div style="text-align:center">
   <h3 align="center"><i>Feel free to fork this repo and create a workflow to your own liking!</i></h3>
 </div>
