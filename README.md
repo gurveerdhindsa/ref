@@ -31,10 +31,10 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 ├── node_modules/                 # 3rd-party libraries and utilities
 ├── public/                       # Static files such as favicon.ico, robots.txt etc.
 ├── server/                       # Server code (aka firebase functions)
-│   ├── .eslintignore             # ESLint ignored directories and files
-│   ├── .eslintrc.json            # ESLint configuration
-│   ├── .snyk                     # Snyk configuration
-│   ├── index.js                  # Server code entry point
+│   ├── .eslintignore               # ESLint ignored directories and files
+│   ├── .eslintrc.json              # ESLint configuration
+│   ├── .snyk                       # Snyk configuration
+│   ├── index.js                    # Server code entry point
 ├── src/                          # Application source code
 │   ├── assets/                     # Application assets (css, images, fonts, etc.)
 │   ├── components/                 # React Components
