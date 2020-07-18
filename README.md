@@ -99,7 +99,7 @@ $ npm run deploy-server           # Deploy server code to Firebase
 
 ### Features
 
-<b>React</b> - React is the key to scalability. Build self-documented code and create maintainable large applications.
+<b>React</b> - The key to scalability. Build self-documented code and create maintainable large applications.
 
 <b>Serverless Architecture</b> - Combination of Firebase services (Firestore, Storage and Cloud Functions) backed by Google.
 
