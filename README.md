@@ -107,5 +107,5 @@ $ npm run deploy-server           # Deploy server code to Firebase
 <b>SEO</b> - 100% SEO supported (document head tags management) for search engines that support indexing of JavaScript content.
 
 <div style="text-align:center">
-  <i align="center">Feel free to fork this repo and create a workflow to your own liking!</i>
+  <h3 align="center"><i>Feel free to fork this repo and create a workflow to your own liking!</i></h3>
 </div>
