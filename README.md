@@ -3,7 +3,7 @@
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/gurveerdhindsa/ref)
 
 <div style="text-align:center">
-  <img width="100%" src="https://imgur.com/download/I5nuZat/" alt="Banner image" />
+  <img width="100%" src="https://imgur.com/download/ZdastFn/" alt="Banner image" />
 </div>
 
 > REF is a React-Express-Firebase project template (aka boilerplate) for building scalable, maintainable and performant web applications.
