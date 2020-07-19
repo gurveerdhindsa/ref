@@ -1,10 +1,10 @@
-[![Build Status](https://travis-ci.com/gurveerdhindsa/ref.svg?token=Q7Wj8LGyEKmLYx5gvdog&branch=master)](https://travis-ci.com/gurveerdhindsa/ref)
-[![Dependencies Status](https://img.shields.io/david/gurveerdhindsa/ref?color=success)](https://github.com/gurveerdhindsa/ref.git)
-![GitHub package.json version](https://img.shields.io/github/package-json/v/gurveerdhindsa/ref)
-
 <div style="text-align:center">
   <img width="100%" src="https://imgur.com/download/ZdastFn/" alt="Banner image" />
 </div>
+
+[![Build Status](https://travis-ci.com/gurveerdhindsa/ref.svg?token=Q7Wj8LGyEKmLYx5gvdog&branch=master)](https://travis-ci.com/gurveerdhindsa/ref)
+[![Dependencies Status](https://img.shields.io/david/gurveerdhindsa/ref?color=success)](https://github.com/gurveerdhindsa/ref.git)
+![GitHub package.json version](https://img.shields.io/github/package-json/v/gurveerdhindsa/ref)
 
 > REF is a React-Express-Firebase project template (aka boilerplate) for building scalable, maintainable and performant web applications.
 
