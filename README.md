@@ -1,5 +1,5 @@
 <div style="text-align:center">
-  <img width="100%" src="https://imgur.com/download/ZdastFn/" alt="Banner image" />
+  <img width="100%" src="https://imgur.com/download/Y6hVgCa/" alt="Banner image" />
 </div>
 
 [![Build Status](https://travis-ci.com/gurveerdhindsa/ref.svg?token=Q7Wj8LGyEKmLYx5gvdog&branch=master)](https://travis-ci.com/gurveerdhindsa/ref)
