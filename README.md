@@ -26,7 +26,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 
 
 ### Tech Stack
-- React
+- [React](https://reactjs.org/) - [🛠](https://stackshare.io/react) - [:octocat:](https://github.com/facebook/react) - JavaScript library for building user interfaces
 - Node.js
   - Express
 - Firebase & GCP
@@ -34,6 +34,11 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
   - Firestore
   - Storage
   - Hosting
+- Webpack
+- Babel
+- Prettier
+- Cypress
+
 
 
 ### Directory Layout
@@ -41,6 +46,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 ├── build/                        # Compiled output
 ├── node_modules/                 # 3rd-party libraries and utilities
 ├── public/                       # Static files such as favicon.ico, robots.txt etc.
+├── cypress/                        # Cypress e2e tests
 ├── server/                       # Server code (aka firebase functions)
 │   ├── .eslintignore               # ESLint ignored directories and files
 │   ├── .eslintrc.json              # ESLint configuration
@@ -112,6 +118,7 @@ $ npm run lint                    # Prettify and lint project files
 $ npm run server                  # Runs server code with live-reload
 $ npm run deploy-client           # Compile a production build & deploy client code to Firebase
 $ npm run deploy-server           # Deploy server code to Firebase
+$ npm run test:cypress            # Execute e2e tests
 ```
 
 <br />
