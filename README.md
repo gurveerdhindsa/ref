@@ -2,13 +2,13 @@
 [![Dependencies Status](https://img.shields.io/david/gurveerdhindsa/ref?color=success)](https://github.com/gurveerdhindsa/ref.git)
 ![GitHub package.json version](https://img.shields.io/github/package-json/v/gurveerdhindsa/ref)
 
-
-
 <div style="text-align:center">
-  <img width="100%" height="20%" src="https://imgur.com/download/I5nuZat/" alt="Banner image" />
+  <img width="100%" height="150px" src="https://imgur.com/download/I5nuZat/" alt="Banner image" />
 </div>
 
 > REF is a React-Express-Firebase project template (aka boilerplate) for building scalable, maintainable and performant web applications.
+
+<br />
 
 This boilerplate is perfect for beginner :baby: , intermediate :man: , and advanced developers :construction_worker: looking to quick-start a project that will yield a perfect [Google Lighthouse](https://developers.google.com/web/tools/lighthouse) score!
 
