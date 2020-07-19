@@ -61,7 +61,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 │   ├── package.json                # The list of project dependencies + NPM scripts
 ├── .babelrc                      # Babel configuration
 ├── .browserslistrc               # Targeted browsers
-├── .cypress.json                 # E2E testing configuration
+├── cypress.json                  # E2E testing configuration
 ├── .eslintignore                 # ESLint ignored directories and files
 ├── .eslintrc.json                # ESLint configuration
 ├── .firebaserc                   # Project aliases
