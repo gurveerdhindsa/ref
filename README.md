@@ -44,7 +44,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 ├── build/                        # Compiled output
 ├── node_modules/                 # 3rd-party libraries and utilities
 ├── public/                       # Static files such as favicon.ico, robots.txt etc.
-├── cypress/                        # Cypress e2e tests
+├── cypress/                      # Cypress e2e tests
 ├── server/                       # Server code (aka firebase functions)
 │   ├── .eslintignore               # ESLint ignored directories and files
 │   ├── .eslintrc.json              # ESLint configuration
