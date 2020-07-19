@@ -26,19 +26,17 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 
 
 ### Tech Stack
-- [React](https://reactjs.org/) - [🛠](https://stackshare.io/react) - [:octocat:](https://github.com/facebook/react) - JavaScript library for building user interfaces
-- Node.js
-  - Express
-- Firebase & GCP
+- [React](https://reactjs.org/) - [🛠](https://stackshare.io/react) - [:octocat:](https://github.com/facebook/react) - JavaScript library for building user interfaces.
+- [Node.js](https://nodejs.org/) - [🛠️](https://stackshare.io/nodejs) - [:octocat:](https://github.com/nodejs/node) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
+- [Express](https://expressjs.com/) - [🛠️](https://stackshare.io/expressjs) - [:octocat:](https://github.com/expressjs/express) - A minimal and flexible Node.js web application framework.
+- [Firebase](https://firebase.google.com/) - [🛠️](https://stackshare.io/firebase) - A mobile and web application development platform.
   - Cloud Functions
   - Firestore
   - Storage
   - Hosting
-- Webpack
-- Babel
-- Prettier
-- Cypress
-
+- [Webpack](https://webpack.js.org/) - [🛠️](https://stackshare.io/webpack) - [:octocat:](https://github.com/webpack/webpack) - A static module bundler for modern JavaScript applications.- Babel
+- [Prettier](https://prettier.io/) - [🛠️](https://stackshare.io/prettier) - [:octocat:](https://github.com/prettier/prettier) - An opinionated code formatter.
+- [Cypress](https://www.cypress.io/) - [🛠️](https://stackshare.io/cypress) - [:octocat:](https://github.com/cypress-io/cypress) - A JavaScript End to End Testing Framework
 
 
 ### Directory Layout
