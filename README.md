@@ -34,7 +34,8 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
   - Firestore
   - Storage
   - Hosting
-- [Webpack](https://webpack.js.org/) - [🛠️](https://stackshare.io/webpack) - [:octocat:](https://github.com/webpack/webpack) - A static module bundler for modern JavaScript applications.- Babel
+- [Webpack](https://webpack.js.org/) - [🛠️](https://stackshare.io/webpack) - [:octocat:](https://github.com/webpack/webpack) - A static module bundler for modern JavaScript applications.
+- [Babel](https://babeljs.io/) - [🛠️](https://stackshare.io/babel) - [:octocat:](https://github.com/babel/babel) - A JavaScript compiler
 - [Prettier](https://prettier.io/) - [🛠️](https://stackshare.io/prettier) - [:octocat:](https://github.com/prettier/prettier) - An opinionated code formatter.
 - [Cypress](https://www.cypress.io/) - [🛠️](https://stackshare.io/cypress) - [:octocat:](https://github.com/cypress-io/cypress) - A JavaScript End to End Testing Framework
 
