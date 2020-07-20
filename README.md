@@ -28,6 +28,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 
 🔍 <b>SEO</b> - 100% SEO supported (document head tags management) for search engines that support indexing of JavaScript content.
 
+<br />
 
 ### Tech Stack
 - [React](https://reactjs.org/) - [🛠](https://stackshare.io/react) - [:octocat:](https://github.com/facebook/react) - JavaScript library for building user interfaces.
@@ -43,6 +44,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 - [Prettier](https://prettier.io/) - [🛠️](https://stackshare.io/prettier) - [:octocat:](https://github.com/prettier/prettier) - An opinionated code formatter.
 - [Cypress](https://www.cypress.io/) - [🛠️](https://stackshare.io/cypress) - [:octocat:](https://github.com/cypress-io/cypress) - A JavaScript End to End Testing Framework
 
+<br />
 
 ### Directory Layout
 ```bash
@@ -80,7 +82,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 ├── webpack.prod.js               # Webpack configuration used ONLY in prod
 └── package.json                  # The list of project dependencies + NPM scripts
 ```
-
+<br />
 
 ### Getting Started
 #### Installation
