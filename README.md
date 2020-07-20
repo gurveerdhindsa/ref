@@ -24,6 +24,8 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 
 🧹 <b>Automatic Linting</b> - Focus on writing new features without worrying about formatting or code quality. Your code will be formatted and linted according to industry standard.
 
+📦 <b>Packaged</b> - Bundle and transpile your code with ease, and have it ready to ship to any environment.
+
 🔍 <b>SEO</b> - 100% SEO supported (document head tags management) for search engines that support indexing of JavaScript content.
 
 
