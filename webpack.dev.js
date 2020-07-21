@@ -16,17 +16,15 @@ module.exports = merge(common, {
         ],
       },
       {
-        test: /\.(sa|sc|c|le)ss$/,
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(sa|sc|le)ss$/,
         use: [
           'style-loader',
           {
             loader: 'css-loader',
-            options: {
-              sourceMap: true,
-            },
-          },
-          {
-            loader: 'postcss-loader',
             options: {
               sourceMap: true,
             },

@@ -31,6 +31,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 <br />
 
 ### Tech Stack
+
 - [React](https://reactjs.org/) - [🛠](https://stackshare.io/react) - [:octocat:](https://github.com/facebook/react) - JavaScript library for building user interfaces.
 - [Node.js](https://nodejs.org/) - [🛠️](https://stackshare.io/nodejs) - [:octocat:](https://github.com/nodejs/node) - A JavaScript runtime built on Chrome's V8 JavaScript engine.
 - [Express](https://expressjs.com/) - [🛠️](https://stackshare.io/expressjs) - [:octocat:](https://github.com/expressjs/express) - A minimal and flexible Node.js web application framework.
@@ -47,6 +48,7 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 <br />
 
 ### Directory Layout
+
 ```bash
 ├── build/                        # Compiled output
 ├── node_modules/                 # 3rd-party libraries and utilities
@@ -82,10 +84,13 @@ This boilerplate is perfect for beginner :baby: , intermediate :man: , and advan
 ├── webpack.prod.js               # Webpack configuration used ONLY in prod
 └── package.json                  # The list of project dependencies + NPM scripts
 ```
+
 <br />
 
 ### Getting Started
+
 #### Installation
+
 ```bash
 $ git clone https://github.com/gurveerdhindsa/ref.git MyApp
 $ cd MyApp

@@ -23,7 +23,7 @@ context('Window', () => {
     cy.get('p').should('have.text', 'Here is a picture of my dog');
   });
 
-  it("should display a image in element div with class image", () => {
-    cy.get('div[class="content"]').find("img").should('be.visible');
+  it('should display a image in element div with class image', () => {
+    cy.get('div[class="content"]').find('img').should('be.visible');
   });
 });
