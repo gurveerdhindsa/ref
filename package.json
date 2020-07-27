@@ -18,6 +18,7 @@
   "homepage": "",
   "author": "Gurveer Dhindsa",
   "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.10.5",
     "@firebase/firestore": "^1.15.4",
     "@firebase/storage": "^0.3.36",
     "@fullhuman/postcss-purgecss": "^2.0.5",
