@@ -6,13 +6,12 @@
   "parser": "babel-eslint",
   "extends": [
     "eslint:recommended",
-    "airbnb",
     "plugin:react/recommended",
     "plugin:import/errors",
     "plugin:import/warnings",
     "plugin:jsx-a11y/recommended",
     "plugin:cypress/recommended",
-    // "plugin:react-hooks/recommended",
+    "plugin:react-hooks/recommended",
     // always put prettier at last
     "prettier"
   ],
