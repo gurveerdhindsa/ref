@@ -68,7 +68,7 @@
     "script-ext-html-webpack-plugin": "^2.1.4",
     "sharp": "^0.25.4",
     "terser-webpack-plugin": "^3.0.6",
-    "webpack-dev-server": "3.7.1",
+    "webpack-dev-server": "5.2.6",
     "webpack-merge": "^4.2.2",
     "write-file-webpack-plugin": "^4.5.1"
   },
